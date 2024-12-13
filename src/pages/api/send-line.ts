@@ -13,7 +13,7 @@ export default async function handler(
   // 金曜日の判定
   if (dayOfWeek == 5) {
     message =
-      "もうすぐ５時ですボイラーをつけましょう。\n今日は金曜日です。点呼表を作りましょう";
+      "もうすぐ５時ですボイラーをつけましょう。\n今日は金曜日です。帰省者リストを作りましょう";
   } else {
     message = "もうすぐ５時ですボイラーをつけましょう。";
   }
